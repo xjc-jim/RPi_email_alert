@@ -3,7 +3,7 @@
 #date:2020/02/20
 #name:email_alert_system.py
 #作者：聪明的瓦肯人
-#微信公众号：工业光线
+#微信公众号：工科生日常
 #网站：http://www.tech-xjc.com
 
 #导入自己的邮件报警模块send_mail
@@ -28,8 +28,8 @@ GPIO.setup(11,GPIO.OUT,initial=GPIO.LOW)
 #task变量用于存储消息，并在thread1线程中作出判断
 task = ''
 #收邮件地址，口令与POP3服务器
-email = '1547613381@qq.com'
-password_pop3 = 'qnfsngbfwpctbacj'
+email = '154****381@qq.com'
+password_pop3 = 'qnf******pctbacj'
 pop3_server = 'pop.qq.com'
 #guess_charset用于解析邮件的编码格式，要根据不同的编码进行解码
 def guess_charset(msg):
