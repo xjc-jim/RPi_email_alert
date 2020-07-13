@@ -3,7 +3,7 @@
 #date:2020/02/20
 #name：send_mail.py
 #作者：聪明的瓦肯人
-#微信公众号：工业光线
+#微信公众号：工科生日常
 #网站：http://www.tech-xjc.com
 
 #导入树莓派GPIO模块
@@ -25,10 +25,10 @@ GPIO.setup(16,GPIO.OUT,initial=GPIO.LOW)
 
 msg = MIMEText("警告：\n非法人员闯入!请立即采取相关措施！", 'plain', 'utf-8')
 # 输入Email地址和口令:
-from_addr ='1547613381@qq.com'
-password_smtp ='qnfsngbfwpctbacj'
+from_addr ='154****381@qq.com'
+password_smtp ='qnf******pctbacj'
 # 输入收件人地址:
-to_addr4 = '3444526584@qq.com'
+to_addr4 = '344****584@qq.com'
 # 输入SMTP服务器地址:
 smtp_server = 'smtp.qq.com'
 
